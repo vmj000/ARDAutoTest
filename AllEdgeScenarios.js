@@ -445,4 +445,3 @@ browser.sleep(50);
 element(by.buttonText('Complete Purchase')).click();
 });
 });
-
