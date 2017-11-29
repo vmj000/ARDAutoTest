@@ -1,24 +1,3 @@
-
-describe('##Path Name[p1]##', function()
-{
-    browser.ignoreSynchronization = true;
-    
-    browser.sleep(5);
-    var fsRead = require('fs');
-    var contents;
-    fsRead.readFile('C:\\Users\\couca01\\Documents\\Presales stuff\\Customer Sites\\Eurostar\\PassFailLogs.csv', 'utf8', contents);
-    if(contents == 'undefined')
-    {
-        contents = "";
-    }
-    console.log(contents);
-    
-    var fs = require('fs');
-    
-    var text = contents;
-    var outputFilename = 'C:\\Users\\couca01\\Documents\\Presales stuff\\Customer Sites\\Eurostar\\PassFailLogs.csv';
-    
-
 describe('Test Cases 1', function()
 {
     browser.ignoreSynchronization = true;
@@ -466,4 +445,4 @@ browser.sleep(50);
 element(by.buttonText('Complete Purchase')).click();
 });
 });
-});
+
